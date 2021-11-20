@@ -19,8 +19,7 @@ public class TC_Login extends BaseClass
 		lp.setPassword(password);
 		lp.clickSubmit();
 		
-		int a =10;
-		a = a*a;
+		
 		
 		if(driver.getTitle().equals("Guru99 Bank Manager HomePage"))
 		{
